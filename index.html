@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Walk Through Jerusalem</title>
+
+  <!-- Mapbox GL JS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+
+  <!-- Your styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="map"></div>
+
+  <div id="sidebar">
+    <h1>Walk Through Jerusalem</h1>
+    <p id="instructions">Click any building to explore its history.</p>
+    <div id="property-info" style="display:none;">
+      <h2 id="property-name"></h2>
+      <p id="property-history"></p>
+    </div>
+  </div>
+
+  <script src="map.js"></script>
+
+</body>
+</html>
