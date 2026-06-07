@@ -1,0 +1,3 @@
+[build]
+  command = "sed -i 's/MAPBOX_TOKEN_PLACEHOLDER/'\"$MAPBOX_TOKEN\"'/g' map.js"
+  publish = "."
